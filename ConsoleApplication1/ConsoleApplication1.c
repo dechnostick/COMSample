@@ -20,8 +20,8 @@ typedef struct tagIClass1 {
 	MyVTable *lpVtbl;
 } _IClass1;
 
-CLSID clsid;
 _IClass1* pIClass1;
+CLSID clsid;
 
 int main(int argc, char *argv[])
 {
