@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 	HRESULT hResult;
 
 	OleInitialize(NULL);
-	CLSIDFromProgID(L"CommonVB.SpreadsheetGearWrapper", &clsid);
+	CLSIDFromProgID(L"COMSample.Class1", &clsid);
 
 	CoInitialize(0);
 	hResult = CoCreateInstance(&clsid, 0, CLSCTX_INPROC_SERVER, &IID_IUnknown, (void**)&pIClass1);
@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 	memset(in, 0x00, sizeof(in));
 	memset(out, 0x00, sizeof(out));
 
-	strcat(in, "world");
+	strcat(in, "Test");
 
 	mbstowcs(ole_in, in, sizeof(in));
 	mbstowcs(ole_out, out, sizeof(out));
