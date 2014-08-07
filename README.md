@@ -33,5 +33,5 @@ Hello, Test!!
 
 vbs で呼び出すとこのようになる。
 
-![](http://cdn-ak.f.st-hatena.com/images/fotolife/d/dechnostick/20140805/20140805224900.jpg)
+![](http://cdn-ak.f.st-hatena.com/images/fotolife/d/dechnostick/20140808/20140808032024.png)
 
